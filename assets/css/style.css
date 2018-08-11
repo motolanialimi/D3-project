@@ -1,0 +1,27 @@
+.iframeContainer {
+  padding-top: 50%;
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+  width: 100%;
+}
+
+/* Sticky Footer rules (https://getbootstrap.com/examples/sticky-footer/) */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+.footer {
+    position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  line-height: 60px; /* Vertically center the text there */
+  background-color: lightgrey;
+  border-top-style: solid;
+  border-top-width: 5px;
+  border-top-color: lightslategrey; 
+  
+}
